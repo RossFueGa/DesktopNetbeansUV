@@ -31,18 +31,22 @@ public class myKeepFrame extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         btn_menu = new javax.swing.JButton();
         jPanelMenu = new javax.swing.JPanel();
-        jPanel3 = new javax.swing.JPanel();
+        btn_solicitud = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
+        btn_inventario = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jPanel5 = new javax.swing.JPanel();
+        btn_agregar = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
+        btn_dashboard = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        btn_account = new javax.swing.JButton();
+        btn_settings = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -82,9 +86,10 @@ public class myKeepFrame extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 70));
 
+        jPanelMenu.setBackground(new java.awt.Color(209, 200, 191));
         jPanelMenu.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel3.setBackground(new java.awt.Color(209, 200, 191));
+        btn_solicitud.setBackground(new java.awt.Color(209, 200, 191));
 
         jLabel1.setText("Solicitudes de préstamo");
 
@@ -94,30 +99,30 @@ public class myKeepFrame extends javax.swing.JFrame {
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel2.setPreferredSize(new java.awt.Dimension(28, 28));
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout btn_solicitudLayout = new javax.swing.GroupLayout(btn_solicitud);
+        btn_solicitud.setLayout(btn_solicitudLayout);
+        btn_solicitudLayout.setHorizontalGroup(
+            btn_solicitudLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_solicitudLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel1)
                 .addContainerGap(23, Short.MAX_VALUE))
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        btn_solicitudLayout.setVerticalGroup(
+            btn_solicitudLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_solicitudLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(btn_solicitudLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jPanelMenu.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 260, -1));
+        jPanelMenu.add(btn_solicitud, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 260, -1));
 
-        jPanel4.setBackground(new java.awt.Color(209, 200, 191));
+        btn_inventario.setBackground(new java.awt.Color(209, 200, 191));
 
         jLabel3.setText("Inventario");
 
@@ -128,30 +133,30 @@ public class myKeepFrame extends javax.swing.JFrame {
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel4.setPreferredSize(new java.awt.Dimension(28, 28));
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout btn_inventarioLayout = new javax.swing.GroupLayout(btn_inventario);
+        btn_inventario.setLayout(btn_inventarioLayout);
+        btn_inventarioLayout.setHorizontalGroup(
+            btn_inventarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_inventarioLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24)
                 .addComponent(jLabel3)
                 .addContainerGap(119, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        btn_inventarioLayout.setVerticalGroup(
+            btn_inventarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_inventarioLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(btn_inventarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jPanelMenu.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 260, -1));
+        jPanelMenu.add(btn_inventario, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 260, -1));
 
-        jPanel5.setBackground(new java.awt.Color(209, 200, 191));
+        btn_agregar.setBackground(new java.awt.Color(209, 200, 191));
 
         jLabel5.setText("Agregar inventario");
 
@@ -163,30 +168,30 @@ public class myKeepFrame extends javax.swing.JFrame {
         jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel6.setPreferredSize(new java.awt.Dimension(28, 28));
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+        javax.swing.GroupLayout btn_agregarLayout = new javax.swing.GroupLayout(btn_agregar);
+        btn_agregar.setLayout(btn_agregarLayout);
+        btn_agregarLayout.setHorizontalGroup(
+            btn_agregarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_agregarLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel5)
                 .addContainerGap(59, Short.MAX_VALUE))
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        btn_agregarLayout.setVerticalGroup(
+            btn_agregarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_agregarLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(btn_agregarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jPanelMenu.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 260, -1));
+        jPanelMenu.add(btn_agregar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 260, -1));
 
-        jPanel6.setBackground(new java.awt.Color(209, 200, 191));
+        btn_dashboard.setBackground(new java.awt.Color(209, 200, 191));
 
         jLabel7.setText("Dashboard");
 
@@ -196,28 +201,60 @@ public class myKeepFrame extends javax.swing.JFrame {
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel8.setPreferredSize(new java.awt.Dimension(28, 28));
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout btn_dashboardLayout = new javax.swing.GroupLayout(btn_dashboard);
+        btn_dashboard.setLayout(btn_dashboardLayout);
+        btn_dashboardLayout.setHorizontalGroup(
+            btn_dashboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btn_dashboardLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 33, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel7)
                 .addContainerGap(113, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        btn_dashboardLayout.setVerticalGroup(
+            btn_dashboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btn_dashboardLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(btn_dashboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jPanelMenu.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 260, -1));
+        jPanelMenu.add(btn_dashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 260, -1));
+
+        btn_account.setForeground(new java.awt.Color(1, 1, 1));
+        btn_account.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/img_account.png"))); // NOI18N
+        btn_account.setBorder(null);
+        btn_account.setBorderPainted(false);
+        btn_account.setContentAreaFilled(false);
+        btn_account.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_account.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_accountActionPerformed(evt);
+            }
+        });
+        jPanelMenu.add(btn_account, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 460, 40, 40));
+
+        btn_settings.setForeground(new java.awt.Color(1, 1, 1));
+        btn_settings.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/img_settings.png"))); // NOI18N
+        btn_settings.setBorderPainted(false);
+        btn_settings.setContentAreaFilled(false);
+        btn_settings.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_settings.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_settingsActionPerformed(evt);
+            }
+        });
+        jPanelMenu.add(btn_settings, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 460, 40, 40));
+
+        jLabel9.setFont(new java.awt.Font("Lato Semibold", 1, 24)); // NOI18N
+        jLabel9.setText("Audiovisual");
+        jPanelMenu.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 140, -1));
+
+        jSeparator1.setForeground(new java.awt.Color(242, 242, 242));
+        jPanelMenu.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 220, 10));
 
         jPanel1.add(jPanelMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 260, 530));
 
@@ -240,6 +277,14 @@ public class myKeepFrame extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_btn_menuActionPerformed
+
+    private void btn_accountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_accountActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_accountActionPerformed
+
+    private void btn_settingsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_settingsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_settingsActionPerformed
 
     /**
      * @param args the command line arguments
@@ -277,7 +322,13 @@ public class myKeepFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_account;
+    private javax.swing.JPanel btn_agregar;
+    private javax.swing.JPanel btn_dashboard;
+    private javax.swing.JPanel btn_inventario;
     private javax.swing.JButton btn_menu;
+    private javax.swing.JButton btn_settings;
+    private javax.swing.JPanel btn_solicitud;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -286,12 +337,10 @@ public class myKeepFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanelMenu;
+    private javax.swing.JSeparator jSeparator1;
     // End of variables declaration//GEN-END:variables
 }
